@@ -1,0 +1,32 @@
+<div class="header-container">
+    <nav class="navbar navbar-expand-md">
+      <div class="navbar-img">
+        <img src="https://justinckt.github.io/juzpixels/assets/images/logoPixels.png" (click)="onClickHeader()">
+      </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon navicon"></span>
+      <span class="navbar-toggler-icon navicon"></span>
+      <span class="navbar-toggler-icon navicon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav navcontent">
+        <li class="nav-item">
+          <a class="nav-link navbtn" href="#aboutSection">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbtn" href="#gallerySection">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbtn" href="#skillsSection">Skills</a>
+        </li>    
+      </ul>
+    </div>  
+  </nav>
+  
+  </div>
+  <div class="category-btn">
+    <button class="tab btn-photography" [routerLink]="['/photography']">Photography</button>
+    <button class="tab btn-digital" [routerLink]="['/digital']">Digital works</button>
+    <button class="tab btn-pencil" [routerLink]="['/pencil']">Pencil works</button>
+   
+</div>

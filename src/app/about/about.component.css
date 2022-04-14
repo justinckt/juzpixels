@@ -1,0 +1,38 @@
+.card {
+    border: 0;
+    border-radius: 0.1875rem;
+    position: relative;
+    background: linear-gradient(-45deg, #292C34 0%, #1A4B7D 100%);
+    width: 100%;
+    color: #ececec;
+          box-shadow: 0px 5px 45px 0px rgba(0, 0, 0, 0.9);
+  }
+  
+
+.card-body {
+    min-height: 190px;
+    margin: 40px;
+    
+  }
+  .section {
+    padding: 120px 0;
+    background: #2e5482;
+    margin-top: -60px;
+    
+  }
+ 
+  
+  
+  .h4 {
+    font-size: 1.8em;
+    line-height: 1.45em;
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  
+   
+  
+  
+ 
+  
